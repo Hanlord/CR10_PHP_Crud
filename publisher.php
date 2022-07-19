@@ -30,13 +30,6 @@ if (mysqli_num_rows($result) > 0) {
     </div>
             ";
   };
-} else {
-  $tbody = "
-       <tr>
-         <td>class='text-center'>Not Data </td>
-        </tr>
-    
-    ";
 }
 ?>
 <!DOCTYPE html>
